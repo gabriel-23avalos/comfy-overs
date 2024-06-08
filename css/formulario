@@ -1,0 +1,11 @@
+    .was-validated .form-control:invalid {
+        border-color: #dc3545;
+    }
+
+    .was-validated .form-control:invalid:focus {
+        box-shadow: none;
+}
+
+.was-validated .form-control:invalid+.invalid-feedback {
+display: block;
+    }

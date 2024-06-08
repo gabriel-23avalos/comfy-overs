@@ -1,0 +1,165 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+header {
+    background-image: url('/img/Header.png');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el área */
+    background-position: center; /* Centra la imagen */
+    height: 643px;
+}
+
+
+/* Media query para tamaños de pantalla medianos (md) */
+@media (max-width: 992px) {
+    header {
+        height: 100vh; /* Reduce la altura del encabezado en pantallas medianas */
+    }
+}
+
+/* Media query para tamaños de pantalla pequeños (sm) */
+@media (max-width: 768px) {
+    header {
+        height: 100vh; /* Reduce aún más la altura del encabezado en pantallas pequeñas */
+    }
+}
+
+.bi-cart3 {
+    color: #7F5B42;
+}
+
+.message {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.carousel-item {
+    background-color: #452B1A;
+}
+
+.section-one h2 {
+    color: #452B1A;
+}
+
+.section-two  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.section-two  .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.section-two .image-overlay {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.section-two .image-overlay h2, .image-overlay p, .image-overlay a {
+    margin: 10px 0;
+}
+
+.section-two .image-overlay a {
+    background-color: #452B1A;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
+.boton button {
+    background-color: #5e3b24;
+    color: white;
+}
+
+
+.section-two .image-overlay a:hover {
+    background-color: #5e3b24;
+}
+
+.columna-texto {
+    background-color: #452B1A;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color negro con poca opacidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay h2 {
+    color: white;
+}
+
+hr {
+    height: 7px;
+    background-color: black;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    color: #452B1A;
+}
+
+footer a :hover {
+    color: #7F5B42;
+}
+
+a{
+    text-decoration: none;
+}
+
+.social-icons a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 576px) {
+    .col-sm-centered {
+        text-align: center;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+}
+
+.btn-carrito {
+    color: white;
+    background-color: #452B1A;
+}
+
+.sector-final {
+    background-color: #452B1A;
+    color: wheat;
+}
+
+.mensaje button {
+    background-color: #452B1A;
+    color: white;
+}
